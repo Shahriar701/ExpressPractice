@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="39bfdfe2-0139-41ae-8340-bc4fff485e72" name="Ec2Server" url="http://52.221.207.175">
+        <fileTransfer host="52.221.207.175" port="22" privateKey="G:\AWS\keys\MyRedHatLinux.ppk" rootFolder="/home/ec2-user/node-js-sample" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
